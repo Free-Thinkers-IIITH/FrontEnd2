@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background-size: cover;
-    background-color: black;
+    background-color: white;
     background-position: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -63,7 +63,7 @@ h1{
     padding: 0 0 30px;
     text-align: center;
     font-size: 3.0rem;
-    color : crimson;
+    color : black;
 }
 
 .loginbox input{
@@ -79,7 +79,7 @@ h1{
     text-align: center;
     outline: none;
     height: 40px;
-    color: white;
+    color: black;
     font-size: 25px;
 }
 
@@ -120,13 +120,13 @@ h1{
 .animation{
     height: 100%;
     width: 100%;
-    background: linear-gradient(180deg, black 5%, black 50%, black);
+    background: linear-gradient(180deg, white 5%, white 50%, white);
     position: absolute;
 }
 .animation div{
     height: 60px;
     width: 60px;
-    border : 2px solid rgba(255,255,255,0.7);
+    border : 2px solid black;
     border-radius: 50px;
     position: absolute;
     top :10%;
@@ -137,7 +137,7 @@ div .dot{
     height : 10px;
     width: 10px;
     border-radius: 50px;
-    background: rgba(255,255,255,0.5);
+    background: black;
     position: absolute;
     top: 20%;
     right: 20%;
